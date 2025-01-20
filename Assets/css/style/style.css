@@ -193,6 +193,24 @@ audio {
     width: 26em;
 }
 
+.experiences {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.experience-logo {
+    width: 10em;
+    margin: 1em 2em 2em 2em;
+    transition: .4s ease-in-out;
+}
+
+.experience-logo:hover {
+    transform: scale(1.1);
+}
+
 .hobbies {
     display: flex;
     align-items: center;
